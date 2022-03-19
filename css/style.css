@@ -9,40 +9,14 @@
 }
 
 @font-face {
-    font-family: 'Fedoka Condensed';
-    src: url('../fonts/Fredoka_Condensed/Fredoka_Condensed-Bold.ttf');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Fedoka Condensed';
-    src: url('../fonts/Fredoka_Condensed/Fredoka_Condensed-Medium.ttf');
-    font-style: normal;
+    font-family: 'Valera Round';
+    src: url('../fonts/VarelaRound-Regular.ttf');
     font-weight: normal;
-}
-@font-face {
-    font-family: 'Fedoka Condensed';
-    src: url('../fonts/Fredoka_Condensed/Fredoka_Condensed-Light.ttf');
-    font-style: normal;
-    font-weight: 200;
-}
-@font-face {
-    font-family: 'Open Sans Condensed';
-    src: url('../fonts/OpenSans_Condensed/OpenSans_Condensed-Regular.ttf');
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {
-    font-family: 'Open Sans Condensed';
-    src: url('../fonts/OpenSans_Condensed/OpenSans_Condensed-Light.ttf');
-    font-style: normal;
-    font-weight: 200;
 }
 
 .body {
-    font-family: 'Open Sans Condensed';
-    font-size: 24px;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
     font-weight: normal;
 }
 
@@ -51,14 +25,14 @@
 }
 
 .header__logo {
-    font-family: 'Fedoka Condensed';
-    color: #0173c7;
+    font-family: 'Valera Round';
+    color: #15c39a;
     font-size: 2em;
     font-weight: bold;
 }
 
 .main {
-    color: #666;
+    color: #868eac;
     width: 50%;
     margin: 0 auto;
 }
@@ -79,10 +53,11 @@
 }
 
 .links-list__link {
-    color: #0173c7;
+    color: #15c39a;
+    font-family: 'Valera Round';
     cursor: pointer;
 }
 .links-list__link:active, .links-list__link:hover, .links-list__link:focus {
-    color: #0460a1;
+    color: #15c39a99;
     cursor: pointer;
 }
