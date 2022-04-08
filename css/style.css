@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -15,9 +17,13 @@
 }
 
 .body {
+    position: relative;
+    width: 100%;
+    height: 100%;
     font-family: Avenir, Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: normal;
+    overflow: hidden;
 }
 
 .header {
@@ -60,4 +66,45 @@
 .links-list__link:active, .links-list__link:hover, .links-list__link:focus {
     color: #15c39a99;
     cursor: pointer;
+}
+
+.landing {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    font-family: 'Heebo', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    color: #575c6e;
+}
+
+.landing__title {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 200px;
+}
+
+.landing__button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    margin: auto;
+    background: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 100px;
+}
+
+.landing_hidden {
+    transition: 2s transform, .4s opacity;
+    transform: translateY(200vh);
+    opacity: 0;
 }
